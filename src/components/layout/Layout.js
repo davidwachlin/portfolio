@@ -12,6 +12,7 @@ import { StaticQuery, graphql } from "gatsby"
 import SEO from "../Seo"
 import MyNavbar from "../navbar/MyNavbar"
 import Footer from "./Footer"
+import SocialRow from '../SocialRow/SocialRow'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -27,7 +28,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <SEO
-          title="John Doe Software Developer"
+          title="David Wachlin Software Developer"
           keywords={[
             `gatsby`,
             `application`,
@@ -55,6 +56,7 @@ const Layout = ({ children }) => (
         >
           <main>{children}</main>
         </div>
+        <SocialRow />
         <Footer />
       </>
     )}

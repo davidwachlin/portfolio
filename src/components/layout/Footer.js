@@ -11,30 +11,23 @@ const Footer = () => (
     <Container style={{ maxWidth: "960px" }}>
       <Row>
         <Col>
-          <h3>John Doe</h3>
+          <h3>David Wachlin</h3>
           <p style={{ color: "blueviolet", fontSize: "1.3rem" }}>
             {/*TODO: ADD A MAILTO-LINK */}
-            john.doe@gmail.com
+            <a href="mailto:davidwachlin@gmail.com">
+              <span style={{ color: "blueviolet" }}>
+                davidwachlin@gmail.com
+              </span>
+            </a>
           </p>
           <br />
-          <p style={{ fontSize: "1.3rem" }}>
+          {/* <p style={{ fontSize: "1.3rem" }}>
             I'm a great developer that loves to code. I can help you grow your
             next product.
-          </p>
+          </p> */}
         </Col>
       </Row>
-      <Row>
-        <Col
-          style={{
-            textDecoration: "underline",
-            fontSize: "1.4rem",
-            marginBottom: "1rem",
-            marginTop: "2rem",
-          }}
-        >
-          Menu
-        </Col>
-      </Row>
+
       <Row>
         <Col xs={2} style={{ fontSize: "1.3rem" }}>
           <Link to="/">

@@ -27,10 +27,10 @@ const projectProject = {
 //Project 1
 
 const project1 = {
-  title: "Cool React app",
+  title: "SpotiViz",
   date: "2019-03-28",
   decription:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat enim amet voluptatum, aut quisquam a, veritatis dolores odit adipisci corrupti tenetur optio. Aliquam incidunt dolor laborum tempore officia obcaecati.",
+    "Create bar graphs to visualize the audio features of your favorite songs on Spotify.",
   sourceURL: "https://github.com",
   hostedURL: "http://www.google.com",
 }
@@ -38,7 +38,7 @@ const project1 = {
 //Project 2
 
 const project2 = {
-  title: "Project 2 title",
+  title: "Little Librarian",
   date: "2019-03-03",
   decription:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat enim amet voluptatum, aut quisquam a, veritatis dolores odit adipisci corrupti tenetur optio. Aliquam incidunt dolor laborum tempore officia obcaecati.",
