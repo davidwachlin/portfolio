@@ -27,13 +27,13 @@ const ProjectCard = props => {
           <h4>
             {props.title}
             <br />
-            <small>{props.date}</small>
+            <small>{props.tags}</small>
           </h4>
 
           <p>{props.description}</p>
 
           <Row>
-            <MyButton text={"Source Code"} URL={props.sourceURL} />
+            <MyButton text={"Github"} URL={props.sourceURL} />
             <MyButton text={"Hosted App"} URL={props.hostedURL} />
           </Row>
         </Col>

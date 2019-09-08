@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: "/gatsby-clean-portfolio",
   siteMetadata: {
     title: `David Wachlin - Software Developer`,
-    description: `Add you meta Description here!`,
+    description: `He's pretty cool you should give him a job`,
     url: "https://ugglr.github.io/gatsby-clean-portfolio/",
     twitterUsername: "@real_carlw",
     author: `@real_carlw`,
@@ -51,8 +51,8 @@ module.exports = {
         name: `gatsby-clean-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#154FFF`,
+        theme_color: `#154FFF`,
         display: `minimal-ui`,
         //icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },

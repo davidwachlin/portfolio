@@ -18,8 +18,7 @@ export default () => (
       <hr />
       <Summary />
       <hr />
-      <Projects />
-      <hr />
+      {/* <Projects /> */}
     </Layout>
   </div>
 )

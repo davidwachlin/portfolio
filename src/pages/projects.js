@@ -6,9 +6,9 @@ import ProjectCard from "../components/portProjectCard/ProjectCard"
 
 import "./index.css"
 
-import project1Picture from "../images/portfolio/cabin.png"
-import project2Picture from "../images/portfolio/cake.png"
-import project3Picture from "../images/portfolio/game.png"
+import project1Picture from "../images/portfolio/spotiviz.png"
+import project2Picture from "../images/portfolio/little-librarian.png"
+import project3Picture from "../images/portfolio/connect-four.png"
 
 /*######### PROJECT OBJECTS TEMPLATE################
 import projectPicture from ""
@@ -22,50 +22,47 @@ const projectProject = {
 #####################################################
 */
 
-//TODO: Make this into an array with objects and map through them instead down below.
-
-//Project 1
-
+const emoji = ['🖼, 💻']
 const project1 = {
-  title: "SpotiViz",
+  title: "SpotiViz 🎶📊",
   date: "2019-03-28",
   decription:
-    "Create bar graphs to visualize the audio features of your favorite songs on Spotify.",
-  sourceURL: "https://github.com",
-  hostedURL: "http://www.google.com",
+    "Create bar graphs to visualize the audio feature data from your favorite songs on Spotify. This MERN-stack app utilizes the Spotify Web API and a D3 library for data visualization.",
+  sourceURL: "https://github.com/davidwachlin/project-4/",
+  hostedURL: "https://lit-crag-54993.herokuapp.com/",
+  tags: 'MERN stack, API, React, D3'
 }
 
 //Project 2
 
 const project2 = {
-  title: "Little Librarian",
+  title: "Little Free Librarian 📖",
   date: "2019-03-03",
   decription:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat enim amet voluptatum, aut quisquam a, veritatis dolores odit adipisci corrupti tenetur optio. Aliquam incidunt dolor laborum tempore officia obcaecati.",
-  sourceURL: "https://github.com/",
-  hostedURL: "https://www.google.com",
+    "A full-stack app using Node/Express, MongoDB, and React to save the locations and books available at Little Free Libraries.",
+  sourceURL: "https://github.com/davidwachlin/project-3/",
+  hostedURL: "https://pacific-temple-35112.herokuapp.com/",
+  tags: 'Node, Express, MongoDB, React, CRUD, Google Maps'
 }
 
 //Project 3
 
 const project3 = {
-  title: "Project 3 title",
+  title: "c0nn3c7 f0ur 🕹",
   date: "2019-02-12",
   decription:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat enim amet voluptatum, aut quisquam a, veritatis dolores odit adipisci corrupti tenetur optio. Aliquam incidunt dolor laborum tempore officia obcaecati.",
-  sourceURL: "https://github.com/",
-  hostedURL: "https://www.google.com",
+    "My first web dev project ever - I used Javascript, jQuery, HTML and CSS to create a connect-4 game with a retro feel.",
+  sourceURL: "https://github.com/davidwachlin/c0nn3c7-f0ur",
+  hostedURL: "https://goofy-bassi-70c65a.netlify.com/",
+  tags: 'Javascript, HTML, CSS, jQuery'
 }
 
 export default () => (
   <div className="App">
     <Layout>
-      {/*########### MyJumbo PROPS ##########
-    title: The title of the jumbotron
-    body: The body of the Jumbotron
-    */}
+
       <MyJumbo
-        title={"Projects Portfolio"}
+        title={"Projects Portfolio 🎨"}
         body={"I think the best way of learning is by building Stuff."}
       />
       <hr />
@@ -89,6 +86,7 @@ export default () => (
               description={project1.decription}
               sourceURL={project1.sourceURL}
               hostedURL={project1.hostedURL}
+              tags={project1.tags}
             />
           </Col>
         </Row>
@@ -101,6 +99,7 @@ export default () => (
               description={project2.decription}
               sourceURL={project2.sourceURL}
               hostedURL={project2.hostedURL}
+              tags={project2.tags}
             />
           </Col>
         </Row>
@@ -113,6 +112,7 @@ export default () => (
               description={project3.decription}
               sourceURL={project3.sourceURL}
               hostedURL={project3.hostedURL}
+              tags={project3.tags}
             />
           </Col>
         </Row>

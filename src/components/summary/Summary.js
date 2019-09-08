@@ -8,7 +8,7 @@ import "./summary.css"
 
 const Summary = () => (
   <Container className="content" fluid>
-    <h3>Cool Recent Tech I use:</h3>
+    <h3>Top Skills:</h3>
     <br />
     <Row className="text-center tech_icons">
       <Col>
@@ -32,13 +32,13 @@ const Summary = () => (
         <span>CSS3</span>
       </Col>
     </Row>
-    <br />
 
-    <h4 className="goal_text text-center">
+
+    {/* <h4 className="goal_text text-center">
       My biggest goal as an Engineer is to never stop learning, and work on cool
       stuff. Here's a couple of things I'm good at:
-    </h4>
-    <Row style={{ marginTop: "1.8rem" }}>
+    </h4> */}
+    {/* <Row style={{ marginTop: "1.8rem" }}>
       <Col>
         <h4 className="hover_effect">Tagline1</h4>
         <p>
@@ -77,14 +77,14 @@ const Summary = () => (
           animi minus aperiam!
         </p>
       </Col>
-    </Row>
-    <br />
+    </Row> */}
+    {/* <br />
     <h4 className="goal_text text-center">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quidem
       praesentium tenetur blanditiis repellendus facilis maiores ducimus cumque,
       nesciunt nulla non ad excepturi magni eveniet voluptatum numquam libero
       error mollitia.
-    </h4>
+    </h4> */}
   </Container>
 )
 

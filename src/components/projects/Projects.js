@@ -5,7 +5,7 @@ import "./projects.css"
 
 import ProjectCard from "../portProjectCard/ProjectCard"
 
-import image from "../../images/portfolio/cabin.png"
+import image from "../../images/portfolio/spotiviz.png"
 
 const Projects = () => (
   <React.Fragment>
@@ -28,7 +28,7 @@ const Projects = () => (
         sourceURL={"https://github.com/"}
         hostedURL={"http://www.google.com"}
       />
-      <Link to="/projects" className="blueViolet">
+      <Link to="/projects" className="#154FFF">
         Go to Projects page ---->
       </Link>
     </Container>

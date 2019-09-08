@@ -16,17 +16,23 @@ export default () => (
     <Layout>
       <MyJumbo
         body={
-          "So you are looking for a professional, communicative & punctual software engineer who likes to keep productive."
+          "I'm a software developer with a background in education. I'm passionate about learning, creating, communicating, and helping others. And I'm kind of hooked on that moment when my code finally solves the problem. "
         }
-        body2={"I can also do this cool thing if that's... needed."}
-        title={"tldr; About me."}
+        // body2={"And another thing."}
+        title={"About 👨‍💻"}
       />
-      <hr />
       <Container fluid>
         <Row style={{ marginTop: "2rem", marginBottom: "1.5rem" }}>
-          <MyButton text={"CV download"} URL={CV} />
-          <MyButton text={"Other Downloadable"} URL={other} />
+          <MyButton
+            text={"Resume"}
+            URL={`https://drive.google.com/file/d/1dnawtKqRotG6xpZzQcRlVS24A0TDLsIj/view?usp=sharing`}
+          />
         </Row>
+      </Container>
+      <hr />
+
+
+      {/*
         <Row>
           <Col>
             <h3>Summary</h3>
@@ -54,13 +60,11 @@ export default () => (
           </Col>
         </Row>
         <hr />
-        {/* This is the beginning of the career section*/}
         <Row>
           <Col>
             <h3>Past work experience</h3>
           </Col>
         </Row>
-        {/* Position number 1*/}
         <Row>
           <Col>
             <h5>Software Engineer</h5>
@@ -81,7 +85,6 @@ export default () => (
           </Col>
         </Row>
         <hr />
-        {/* SW intern Position*/}
         <Row>
           <Col>
             <h5>Software Engineer Intern</h5>
@@ -102,13 +105,11 @@ export default () => (
           </Col>
         </Row>
         <hr />
-        {/* This is the beginning of the education section*/}
         <Row>
           <Col>
             <h3>Education</h3>
           </Col>
         </Row>
-        {/* Masters Degreee*/}
         <Row>
           <Col>
             <h5>MSc. ACME studies</h5>
@@ -129,7 +130,7 @@ export default () => (
             </p>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
     </Layout>
   </div>
 )
