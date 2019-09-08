@@ -38,7 +38,7 @@ export default () => (
 
 
 
-    <Col>
+    {/* <Col>
       <a
         style={{ color: "#000" }}
         className="hover_effect"
@@ -48,7 +48,7 @@ export default () => (
       >
         <i className="fab fa-hackerrank hover_effect" />
       </a>
-    </Col>
+    </Col> */}
     <Col>
       <a
         style={{ color: "#000" }}
